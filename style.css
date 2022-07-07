@@ -69,6 +69,10 @@ p {
 
 }
 
+.donate-section-title {
+    text-align: center;
+}
+
 .donate-section-title h2 {
     margin-bottom: 50px;
     color: #121212;
@@ -155,6 +159,80 @@ p {
     background: rgba(79, 157, 166, 0.1);
 }
 
+/* volunteer area css  */
+.volunteer-area {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.volunteer-content span {
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.volunteer-content h3 {
+    font-size: 45px;
+    line-height: 1;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+.volunteer-area .volunteer-image {
+    margin-right: 60px;
+}
+
+.volunteer-image img {
+    height: 400px;
+    width: 600px;
+}
+
+/* subscribe area css  */
+.subscribe-area {
+    margin-bottom: 100px;
+}
+
+.subscribe-form-wrap {
+    text-align: center;
+    background-color: #FFF4D6;
+    padding: 100px 200px;
+    margin: 0 200px;
+    margin-top: 50px;
+}
+
+.subscribe-form-wrap form input {
+    height: 48px;
+    line-height: 48px;
+    width: 275px;
+    border: 0;
+    padding: 0 20px;
+    background-color: #D9D9D9ed;
+}
+
+.subscribe-form-wrap form input:focus {
+    border: 0;
+    outline: 0;
+}
+
+.subscribe-form-wrap form button {
+    border: transparent;
+    font-size: 16px;
+    text-transform: capitalize;
+    background-color: red;
+    color: #fff;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 30px;
+    font-weight: 500;
+    border-radius: 0px 5px 5px 0px;
+}
+
+
+/* footer area css  */
 .footer-wrapper {
     background-color: #0B0D17;
     text-align: center;
